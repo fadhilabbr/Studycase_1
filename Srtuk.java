@@ -16,8 +16,6 @@ public class Srtuk {
         no_telp = input.nextLine();
         System.out.print("Harga Tiket    : Rp ");
         harga_tiket = input.nextInt();
-        System.out.print("Diskon         : Rp ");
-        diskon = input.nextInt();
         total_bayar = harga_tiket - diskon;
         input.close();
         // CETAK STRUK PEMBAYARAN
@@ -29,7 +27,6 @@ public class Srtuk {
         System.out.println("Travel         : " + travel);
         System.out.println("No Telp        : " + no_telp);
         System.out.println("Harga Tiket    : Rp " + harga_tiket);
-        System.out.println("Diskon         : Rp " + diskon);
         System.out.println("Total Bayar    : Rp " + total_bayar);
         System.out.println("===================================");
         System.out.println("       Terima Kasih Atas");
@@ -37,3 +34,4 @@ public class Srtuk {
         System.out.println("===================================");
     }
 }
+
