@@ -10,6 +10,7 @@ public class Data1_2 {
         Destinasi = input.next();
         System.out.print("MASUKKAN JUMLAH PENUMPANG : ");
         Jumlahpenumpang = input.nextInt();
+        input.nextLine();
         
         for(int i = 1; i <= Jumlahpenumpang; i++){
             String NAMA, NO_TELP, ALAMAT;
@@ -25,3 +26,4 @@ public class Data1_2 {
         input.close();
     }
 }
+
