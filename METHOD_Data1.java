@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Data1_1 {
+public class METHOD_Data1 {
 
     static Scanner scanner = new Scanner(System.in);
 
